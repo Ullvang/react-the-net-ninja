@@ -1,3 +1,6 @@
+Visit website at:
+http://react-netninja.s3-website.eu-north-1.amazonaws.com
+
 Following this tutorial:
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d
 
