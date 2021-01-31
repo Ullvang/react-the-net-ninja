@@ -3,7 +3,7 @@ import useFetch from "./useFetch";
 
 const Home = () => {
   const { data: blogs, isLoading, error } = useFetch(
-    "http://localhost:8000/blogs"
+    process.env.REACT_APP_URL + "/blogs"
   );
 
   return (

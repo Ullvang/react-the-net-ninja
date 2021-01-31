@@ -5,13 +5,13 @@ const BlogDetails = () => {
   const { id } = useParams();
 
   const { data: blog, error, isLoading } = useFetch(
-    "http://localhost:8000/blogs/" + id
+    process.env.REACT_APP_URL + "/blogs/" + id
   );
 
   const history = useHistory();
 
   const handleClick = () => {
-    fetch("http://localhost:8000/blogs/" + id, {
+    fetch(process.env.REACT_APP_URL + "/blogs/" + id, {
       method: "DELETE",
     }).then(() => {
       history.push("/");
