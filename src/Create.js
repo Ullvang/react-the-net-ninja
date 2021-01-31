@@ -55,9 +55,6 @@ const Create = () => {
         ) : (
           <button disabled>Adding blog ...</button>
         )}
-        <p>{title}</p>
-        <p>{body}</p>
-        <p>{author}</p>
       </form>
     </div>
   );
